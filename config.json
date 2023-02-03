@@ -1,0 +1,19 @@
+{
+  "contractsRoot": "./contracts/",
+  "testsRoot": "./test/",
+  "buildOutputDirectory": "./build/",
+  "steps": [
+    {
+      "name": "ganache",
+      "installationCommand": "install.sh",
+      "executionCommand": "execute.sh",
+      "executionWaitTime": 10
+    },
+    {
+      "name": "truffle",
+      "installationCommand": "install.sh",
+      "executionCommand": "execute.sh",
+      "executionWaitTime": -1
+    }
+  ]
+}
